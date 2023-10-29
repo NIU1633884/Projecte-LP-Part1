@@ -1,0 +1,3 @@
+﻿  MapaRender.cpp
+C:\Users\MARCEL\Downloads\codiEstudiants\estudiants\LP-OSM-2223-DLL\MapaRender.cpp(38,57): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
+  LP-OSM-2223-DLL.vcxproj -> C:\Users\MARCEL\Downloads\codiEstudiants\estudiants\x64\Debug\LP-OSM-2223-DLL.dll
