@@ -12,4 +12,6 @@ Primer us heu descarregat el projecte de Caronte: codiEstudiantsTasca1-2Fitxer
 Alla teniu un projecte creat i dos XmlElement: (XmlElement definit a Common.h) • Un que representa un node d’interès: viejoRoble
 • Un que representa un camí: camiJoaquim
 
-TASCA 3, 4, 5 I 6
+
+
+En aquesta entrega, heu de realitzar les Tasques 3 a 9 descrites en l'enunciat del projecte i resumides a les presentacions de la primera part de la pràctica
