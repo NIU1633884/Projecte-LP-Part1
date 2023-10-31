@@ -19,10 +19,14 @@
           "Microsoft.Windows.SDK.Contracts": "10.0.18362.2005"
         },
         "compile": {
-          "lib/netcoreapp3.0/Microsoft.Toolkit.Win32.UI.XamlHost.Managed.dll": {}
+          "lib/netcoreapp3.0/Microsoft.Toolkit.Win32.UI.XamlHost.Managed.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp3.0/Microsoft.Toolkit.Win32.UI.XamlHost.Managed.dll": {}
+          "lib/netcoreapp3.0/Microsoft.Toolkit.Win32.UI.XamlHost.Managed.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "build": {
           "build/Microsoft.Toolkit.UI.XamlHost.props": {},
@@ -84,10 +88,14 @@
           "Microsoft.Windows.SDK.Contracts": "10.0.18362.2005"
         },
         "compile": {
-          "lib/netcoreapp3.0/Microsoft.Toolkit.Wpf.UI.Controls.dll": {}
+          "lib/netcoreapp3.0/Microsoft.Toolkit.Wpf.UI.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp3.0/Microsoft.Toolkit.Wpf.UI.Controls.dll": {}
+          "lib/netcoreapp3.0/Microsoft.Toolkit.Wpf.UI.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
@@ -101,10 +109,14 @@
           "Microsoft.Windows.SDK.Contracts": "10.0.18362.2005"
         },
         "compile": {
-          "lib/netcoreapp3.0/Microsoft.Toolkit.Wpf.UI.XamlHost.dll": {}
+          "lib/netcoreapp3.0/Microsoft.Toolkit.Wpf.UI.XamlHost.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp3.0/Microsoft.Toolkit.Wpf.UI.XamlHost.dll": {}
+          "lib/netcoreapp3.0/Microsoft.Toolkit.Wpf.UI.XamlHost.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
@@ -423,10 +435,14 @@
           "Microsoft.NETCore.Platforms": "3.0.0"
         },
         "compile": {
-          "ref/netstandard2.0/System.Runtime.WindowsRuntime.dll": {}
+          "ref/netstandard2.0/System.Runtime.WindowsRuntime.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Runtime.WindowsRuntime.dll": {}
+          "lib/netstandard2.0/System.Runtime.WindowsRuntime.dll": {
+            "related": ".xml"
+          }
         },
         "runtimeTargets": {
           "runtimes/win/lib/netcoreapp3.0/System.Runtime.WindowsRuntime.dll": {
@@ -442,10 +458,14 @@
           "System.Runtime.WindowsRuntime": "4.6.0"
         },
         "compile": {
-          "ref/netstandard2.0/System.Runtime.WindowsRuntime.UI.Xaml.dll": {}
+          "ref/netstandard2.0/System.Runtime.WindowsRuntime.UI.Xaml.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Runtime.WindowsRuntime.UI.Xaml.dll": {}
+          "lib/netstandard2.0/System.Runtime.WindowsRuntime.UI.Xaml.dll": {
+            "related": ".xml"
+          }
         },
         "runtimeTargets": {
           "runtimes/win/lib/netcoreapp3.0/System.Runtime.WindowsRuntime.UI.Xaml.dll": {
@@ -1010,26 +1030,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MARCEL\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\adria\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MARCEL\\Downloads\\codiEstudiants\\estudiants\\LP-OSM-2223-WPF\\LP-OSM-2223-WPF.csproj",
+      "projectUniqueName": "G:\\Mi unidad\\UAB\\2n  3r\\LP\\PRACTICA\\part 1\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-WPF\\LP-OSM-2223-WPF.csproj",
       "projectName": "LP-OSM-2223-WPF",
-      "projectPath": "C:\\Users\\MARCEL\\Downloads\\codiEstudiants\\estudiants\\LP-OSM-2223-WPF\\LP-OSM-2223-WPF.csproj",
-      "packagesPath": "C:\\Users\\MARCEL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MARCEL\\Downloads\\codiEstudiants\\estudiants\\LP-OSM-2223-WPF\\obj\\",
+      "projectPath": "G:\\Mi unidad\\UAB\\2n  3r\\LP\\PRACTICA\\part 1\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-WPF\\LP-OSM-2223-WPF.csproj",
+      "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
+      "outputPath": "G:\\Mi unidad\\UAB\\2n  3r\\LP\\PRACTICA\\part 1\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-WPF\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\MARCEL\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\adria\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1043,8 +1056,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\MARCEL\\Downloads\\codiEstudiants\\estudiants\\LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj": {
-              "projectPath": "C:\\Users\\MARCEL\\Downloads\\codiEstudiants\\estudiants\\LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj"
+            "G:\\Mi unidad\\UAB\\2n  3r\\LP\\PRACTICA\\part 1\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj": {
+              "projectPath": "G:\\Mi unidad\\UAB\\2n  3r\\LP\\PRACTICA\\part 1\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj"
             }
           }
         }
@@ -1079,10 +1092,29 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.32, 3.1.32]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -1091,7 +1123,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
