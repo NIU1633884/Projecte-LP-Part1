@@ -52,7 +52,7 @@ int main()
 
 	std::string tempsValor = "";
 	bool permetMobilitatReduida = false;
-	// Comprovem per id_element, que es tracta d’un node
+	// Comprovem per id_element, que es tracta dâ€™un node
 	if (viejoRoble.id_element == "node") {
 		// En cas que sigui un node, recorrem els seus atributs
 		for (int i = 0; i < viejoRoble.atributs.size(); i++) {
@@ -61,11 +61,54 @@ int main()
 				tempsValor = viejoRoble.atributs[i].second;
 			}
 		}
-		// Recorrem els fills d’aquest node
+		// Recorrem els fills dâ€™aquest node
 		for (int i = 0; i < viejoRoble.fills.size(); i++) {
 			// Iterem i avaluem tots els fills que son tags
 			if (viejoRoble.fills[i].first == "tag") {
-				// Emmagatzemem el valor d’aquest tag
+				// Emmagatzemem el valor dâ€™aquest tag
+				std::pair<std::string, std::string> valorTag =
+					Util::kvDeTag(viejoRoble.fills[i].second);
+				// Comprovem que es el tag que busquem
+				if (valorTag.first == "name") {
+					std::cout<<"Nom: "<<valorTag.second;
+				}
+			}
+		}
+	}
+
+
+	/*
+		Tasca 1:
+		Imprimir per pantalla lâ€™identificador, latitud (lat), lâ€™longitud (lon), 
+		aixÃ­ com el nom (name), del element XML viejoRoble construit en aquest apartat 2.2.
+		
+		Teniu en compte que, almenys, haureu de transformar latitud i longitud a tipus double.
+		
+		Recordeu que en la soluciÃ³ de la prÃ ctica haureu de recollir tots els punts dâ€™interÃ©s, 
+		que per definiciÃ³, sÃ³n nodes que no sÃ³n nodes de camÃ­ que tenen un atribut name.
+	*/
+
+	// TODO Tasca1 
+	//Tasca 1:
+	if (viejoRoble.id_element == "node") {
+		// En cas que sigui un node, recorrem els seus atributs
+		for (int i = 0; i < viejoRoble.atributs.size(); i++) {
+			// Iterem fins trobar el atribut que ens interessa
+			if (viejoRoble.atributs[i].first == "id") {
+				std::cout<<"Identificacio: "<<viejoRoble.atributs[i].second<<endl;
+			}
+			if (viejoRoble.atributs[i].first == "lat") {
+				std::cout<<"Latitud: "<<viejoRoble.atributs[i].second<<endl;
+			}
+			if (viejoRoble.atributs[i].first == "lon") {
+				std::cout<<"Longitud: "<<viejoRoble.atributs[i].second<<endl;
+			}
+		}
+		// Recorrem els fills dâ€™aquest node
+		for (int i = 0; i < viejoRoble.fills.size(); i++) {
+			// Iterem i avaluem tots els fills que son tags
+			if (viejoRoble.fills[i].first == "tag") {
+				// Emmagatzemem el valor dâ€™aquest tag
 				std::pair<std::string, std::string> valorTag =
 					Util::kvDeTag(viejoRoble.fills[i].second);
 				// Comprovem que es el tag que busquem
@@ -75,21 +118,9 @@ int main()
 				}
 			}
 		}
-	}
 
-
-	/*
-		Tasca 1:
-		Imprimir per pantalla l’identificador, latitud (lat), l’longitud (lon), 
-		així com el nom (name), del element XML viejoRoble construit en aquest apartat 2.2.
-		
-		Teniu en compte que, almenys, haureu de transformar latitud i longitud a tipus double.
-		
-		Recordeu que en la solució de la pràctica haureu de recollir tots els punts d’interés, 
-		que per definició, són nodes que no són nodes de camí que tenen un atribut name.
-	*/
-
-	// TODO Tasca1 
+    	std::vector<CHILD_NODE> fills_aux=viejoRoble.fills;
+	
 
 	XmlElement camiJoaquim = {
 		// id_element = 
@@ -162,11 +193,11 @@ int main()
 	/*
 		Tasca 2: 
 		Imprimir per pantalla els identificadors dels nodes 
-		que formen el XmlElement camiJoaquim, així com el valor del atribut highway. 
+		que formen el XmlElement camiJoaquim, aixÃ­ com el valor del atribut highway. 
 		
-		Recordeu que en la solució de la pràctica només haureu de tenir en compte 
+		Recordeu que en la soluciÃ³ de la prÃ ctica nomÃ©s haureu de tenir en compte 
 		tots els camins que tenen el tag highway (independentment del valor que pugui tenir), 
-		així com saber quins nodes de tipus camí, formen cada camí.
+		aixÃ­ com saber quins nodes de tipus camÃ­, formen cada camÃ­.
 	*/
 
 	// TODO Tasca2 
