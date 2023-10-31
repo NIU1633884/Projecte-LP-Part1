@@ -69,8 +69,9 @@ int main()
 				std::pair<std::string, std::string> valorTag =
 					Util::kvDeTag(viejoRoble.fills[i].second);
 				// Comprovem que es el tag que busquem
-				if (valorTag.first == "name") {
-					std::cout<<"Nom: "<<valorTag.second;
+				if (valorTag.first == "wheelchair") {
+					permetMobilitatReduida =
+						(valorTag.second == "yes") ? true : false;
 				}
 			}
 		}
