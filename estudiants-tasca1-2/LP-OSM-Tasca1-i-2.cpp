@@ -92,17 +92,17 @@ int main()
 	// TODO Tasca1 
 	//Tasca 1:
 	if (viejoRoble.id_element == "node") {
-		// En cas que sigui un node, recorrem els seus atributs
 		for (int i = 0; i < viejoRoble.atributs.size(); i++) {
-			// Iterem fins trobar el atribut que ens interessa
 			if (viejoRoble.atributs[i].first == "id") {
-				std::cout<<"Identificacio: "<<viejoRoble.atributs[i].second<<endl;
+				std::cout << "Identificacio: " << viejoRoble.atributs[i].second << std::endl;
 			}
 			if (viejoRoble.atributs[i].first == "lat") {
-				std::cout<<"Latitud: "<<viejoRoble.atributs[i].second<<endl;
+				double latitud = std::stod(viejoRoble.atributs[i].second); // Convierte la cadena a double
+				std::cout << "Latitud: " << latitud << std::endl;
 			}
 			if (viejoRoble.atributs[i].first == "lon") {
-				std::cout<<"Longitud: "<<viejoRoble.atributs[i].second<<endl;
+				double longitud = std::stod(viejoRoble.atributs[i].second); // Convierte la cadena a double
+				std::cout << "Longitud: " << longitud << std::endl;
 			}
 		}
 		// Recorrem els fills d’aquest node
@@ -113,15 +113,12 @@ int main()
 				std::pair<std::string, std::string> valorTag =
 					Util::kvDeTag(viejoRoble.fills[i].second);
 				// Comprovem que es el tag que busquem
-				if (valorTag.first == "wheelchair") {
-					permetMobilitatReduida =
-						(valorTag.second == "yes") ? true : false;
+				if (valorTag.first == "name") {
+					std::cout << "Nom: " << valorTag.second << std::endl;
 				}
 			}
 		}
-
-    	std::vector<CHILD_NODE> fills_aux=viejoRoble.fills;
-	
+	}
 
 	XmlElement camiJoaquim = {
 		// id_element = 
@@ -202,6 +199,28 @@ int main()
 	*/
 
 	// TODO Tasca2 
+	//Tasca 2:
+	for (int i = 0; i < camiJoaquim.fills.size(); i++) {
+		// Iterem i avaluem tots els fills que son tags
+		if (camiJoaquim.fills[i].first == "nd") {
+			// Emmagatzemem el valor d’aquest tag
+			std::vector<std::pair<std::string, std::string>> aux = camiJoaquim.fills[i].second;
+			for (int j = 0; j < aux.size(); j++) {
+				if (aux[j].first == "ref")
+					std::cout << "La referencia del node " << i <<": " << aux[j].second << std::endl;
+			}
+			
+		}
+
+		if (camiJoaquim.fills[i].first == "tag") {
+			// Emmagatzemem el valor d’aquest tag
+			std::pair<std::string, std::string> valorTag = Util::kvDeTag(camiJoaquim.fills[i].second);
+			// Comprovem que es el tag que busquem
+			if (valorTag.first == "highway") {
+				std::cout << "Highway: " << valorTag.second << std::endl;
+			}
+		}
+	}
 
 	return 0;
 
