@@ -7,7 +7,7 @@ int main()
     std::cout << "Implementeu en aquesta solucio la solucio per les Tasques 1 i 2" << std::endl;
     std::cout << "===============================================================" << std::endl;
 
-	XmlElement viejoRoble = {
+	XmlElement viejoRoble = {   //XMLELEMENT QUE REPRESENTA UN NODE D'INTERES
 		//id_element = 
 			"node",
 
@@ -120,7 +120,7 @@ int main()
 		}
 	}
 
-	XmlElement camiJoaquim = {
+	XmlElement camiJoaquim = {    //XMLELEMENT QUE REPRESENTA UN CAMÍ
 		// id_element = 
 		"way",
 
@@ -200,7 +200,7 @@ int main()
 
 	// TODO Tasca2 
 	//Tasca 2:
-	for (int i = 0; i < camiJoaquim.fills.size(); i++) {
+	for (int i = 0; i < camiJoaquim.fills.size(); i++) {   //nodes
 		// Iterem i avaluem tots els fills que son tags
 		if (camiJoaquim.fills[i].first == "nd") {
 			// Emmagatzemem el valor d’aquest tag
@@ -212,7 +212,7 @@ int main()
 			
 		}
 
-		if (camiJoaquim.fills[i].first == "tag") {
+		if (camiJoaquim.fills[i].first == "tag") {  //camins, nomes ens importen si son highway
 			// Emmagatzemem el valor d’aquest tag
 			std::pair<std::string, std::string> valorTag = Util::kvDeTag(camiJoaquim.fills[i].second);
 			// Comprovem que es el tag que busquem
