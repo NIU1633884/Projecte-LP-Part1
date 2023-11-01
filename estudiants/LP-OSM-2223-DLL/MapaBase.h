@@ -7,7 +7,7 @@
 #include "CamiSolucio.h"
 
 
-class MapaBase {
+class MapaBase { // Classe virtual pura
 
 	public:
 		virtual void getPdis(std::vector<PuntDeInteresBase*>&) = 0;
