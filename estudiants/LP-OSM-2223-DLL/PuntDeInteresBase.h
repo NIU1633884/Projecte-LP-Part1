@@ -6,8 +6,8 @@
 class PuntDeInteresBase {
 
 	private:
-		Coordinate m_coord;
-		std::string m_name;
+		Coordinate m_coord; //coordenades
+		std::string m_name; //nom
 
 	public:		
 		PuntDeInteresBase();

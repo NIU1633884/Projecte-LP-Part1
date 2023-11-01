@@ -197,8 +197,7 @@ int main()
 		tots els camins que tenen el tag highway (independentment del valor que pugui tenir), 
 		així com saber quins nodes de tipus camí, formen cada camí.
 	*/
-
-	// TODO Tasca2 
+		// TODO Tasca2 
 	//Tasca 2:
 	for (int i = 0; i < camiJoaquim.fills.size(); i++) {   //nodes
 		// Iterem i avaluem tots els fills que son tags
