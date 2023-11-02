@@ -7,6 +7,8 @@
 #include "Common.h"
 
 #include "MapaBase.h"
+#include "MapaSolucio.h"
+
 #include "XML4OSMUtil.h"
 
 
@@ -15,7 +17,8 @@ class MapaRender {
         MapaRender();
         static MapaRender* m_singleton;
         XML4OSMUtil* m_xml4osm_util;
-        MapaBase* m_mapaBase;
+
+        MapaBase* m_mapaBase; //4. Instancieu correctament la propietat m_mapaBase de la classe MapaRender construint la vostra solució de MapaSolucio
 
     public:
         static MapaRender* instance();
