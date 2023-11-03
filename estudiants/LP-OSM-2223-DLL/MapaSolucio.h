@@ -11,5 +11,7 @@ public:
 	//varios camins -> de varios nodes
 	void getCamins(std::vector<CamiBase*>&);  //Retornar tot el conjunt de camins parsejats
 	void parsejaXmlElements(std::vector<XmlElement>& xmlElements); //Retornar tot el conjunt de Punts d’Interes parsejats
-
+private:
+	std::vector<PuntDeInteresBase*> m_puntsDeInteres;
+	std::vector<CamiSolucio*> m_camins;
 };

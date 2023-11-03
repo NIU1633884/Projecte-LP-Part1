@@ -1,35 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Mi unidad\\UAB\\2n  3r\\LP\\PRACTICA\\part 1\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-WPF\\LP-OSM-2223-WPF.csproj": {}
+    "C:\\Users\\Oscar\\Source\\Repos\\NIU1633884\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-WPF\\LP-OSM-2223-WPF.csproj": {}
   },
   "projects": {
-    "G:\\Mi unidad\\UAB\\2n  3r\\LP\\PRACTICA\\part 1\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj": {
+    "C:\\Users\\Oscar\\Source\\Repos\\NIU1633884\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj": {
       "restore": {
-        "projectUniqueName": "G:\\Mi unidad\\UAB\\2n  3r\\LP\\PRACTICA\\part 1\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj",
+        "projectUniqueName": "C:\\Users\\Oscar\\Source\\Repos\\NIU1633884\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj",
         "projectName": "LP-OSM-2223-DLL",
-        "projectPath": "G:\\Mi unidad\\UAB\\2n  3r\\LP\\PRACTICA\\part 1\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj",
-        "frameworks": {
-          "native": {
-            "projectReferences": {}
-          }
-        }
+        "projectPath": "C:\\Users\\Oscar\\Source\\Repos\\NIU1633884\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj"
       },
       "frameworks": {
         "native": {}
       }
     },
-    "G:\\Mi unidad\\UAB\\2n  3r\\LP\\PRACTICA\\part 1\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-WPF\\LP-OSM-2223-WPF.csproj": {
+    "C:\\Users\\Oscar\\Source\\Repos\\NIU1633884\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-WPF\\LP-OSM-2223-WPF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Mi unidad\\UAB\\2n  3r\\LP\\PRACTICA\\part 1\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-WPF\\LP-OSM-2223-WPF.csproj",
+        "projectUniqueName": "C:\\Users\\Oscar\\Source\\Repos\\NIU1633884\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-WPF\\LP-OSM-2223-WPF.csproj",
         "projectName": "LP-OSM-2223-WPF",
-        "projectPath": "G:\\Mi unidad\\UAB\\2n  3r\\LP\\PRACTICA\\part 1\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-WPF\\LP-OSM-2223-WPF.csproj",
-        "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
-        "outputPath": "G:\\Mi unidad\\UAB\\2n  3r\\LP\\PRACTICA\\part 1\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-WPF\\obj\\",
+        "projectPath": "C:\\Users\\Oscar\\Source\\Repos\\NIU1633884\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-WPF\\LP-OSM-2223-WPF.csproj",
+        "packagesPath": "C:\\Users\\Oscar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oscar\\Source\\Repos\\NIU1633884\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-WPF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\adria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Oscar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,8 +38,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "G:\\Mi unidad\\UAB\\2n  3r\\LP\\PRACTICA\\part 1\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj": {
-                "projectPath": "G:\\Mi unidad\\UAB\\2n  3r\\LP\\PRACTICA\\part 1\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj"
+              "C:\\Users\\Oscar\\Source\\Repos\\NIU1633884\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj": {
+                "projectPath": "C:\\Users\\Oscar\\Source\\Repos\\NIU1633884\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj"
               }
             }
           }
@@ -79,29 +74,10 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.32, 3.1.32]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -110,7 +86,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

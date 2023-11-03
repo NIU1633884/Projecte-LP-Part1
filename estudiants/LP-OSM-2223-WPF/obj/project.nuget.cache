@@ -1,23 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "2kvFIHqNd2CmWi6XBvSwK4eIumu3PY8Nnn83/4zshnPOhLBPolxsPxvqBBw/CgkG2Yec42CHZf7atKZa2gW56Q==",
+  "dgSpecHash": "mGa2L6v7ckwl+/P2XlSPUFfCzO373ZvYJBEtcHyjJAbNJ0Vxbk/D+ZCRS+0cjckGf/AIaWrzgjZ/uVkhc1ZllA==",
   "success": true,
-  "projectFilePath": "G:\\Mi unidad\\UAB\\2n  3r\\LP\\PRACTICA\\part 1\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-WPF\\LP-OSM-2223-WPF.csproj",
+  "projectFilePath": "C:\\Users\\Oscar\\Source\\Repos\\NIU1633884\\Projecte-LP-Part1\\estudiants\\LP-OSM-2223-WPF\\LP-OSM-2223-WPF.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\adria\\.nuget\\packages\\microsoft.netcore.platforms\\3.0.0\\microsoft.netcore.platforms.3.0.0.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\microsoft.toolkit.ui.xamlhost\\6.1.2\\microsoft.toolkit.ui.xamlhost.6.1.2.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\microsoft.toolkit.win32.ui.sdk\\6.1.2\\microsoft.toolkit.win32.ui.sdk.6.1.2.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\microsoft.toolkit.win32.ui.xamlapplication\\6.1.2\\microsoft.toolkit.win32.ui.xamlapplication.6.1.2.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\microsoft.toolkit.wpf.ui.controls\\6.1.2\\microsoft.toolkit.wpf.ui.controls.6.1.2.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\microsoft.toolkit.wpf.ui.xamlhost\\6.1.2\\microsoft.toolkit.wpf.ui.xamlhost.6.1.2.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\microsoft.vcrtforwarders.140\\1.0.6\\microsoft.vcrtforwarders.140.1.0.6.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\microsoft.windows.sdk.contracts\\10.0.19041.1\\microsoft.windows.sdk.contracts.10.0.19041.1.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\system.runtime.windowsruntime\\4.6.0\\system.runtime.windowsruntime.4.6.0.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\system.runtime.windowsruntime.ui.xaml\\4.6.0\\system.runtime.windowsruntime.ui.xaml.4.6.0.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+    "C:\\Users\\Oscar\\.nuget\\packages\\microsoft.netcore.platforms\\3.0.0\\microsoft.netcore.platforms.3.0.0.nupkg.sha512",
+    "C:\\Users\\Oscar\\.nuget\\packages\\microsoft.toolkit.ui.xamlhost\\6.1.2\\microsoft.toolkit.ui.xamlhost.6.1.2.nupkg.sha512",
+    "C:\\Users\\Oscar\\.nuget\\packages\\microsoft.toolkit.win32.ui.sdk\\6.1.2\\microsoft.toolkit.win32.ui.sdk.6.1.2.nupkg.sha512",
+    "C:\\Users\\Oscar\\.nuget\\packages\\microsoft.toolkit.win32.ui.xamlapplication\\6.1.2\\microsoft.toolkit.win32.ui.xamlapplication.6.1.2.nupkg.sha512",
+    "C:\\Users\\Oscar\\.nuget\\packages\\microsoft.toolkit.wpf.ui.controls\\6.1.2\\microsoft.toolkit.wpf.ui.controls.6.1.2.nupkg.sha512",
+    "C:\\Users\\Oscar\\.nuget\\packages\\microsoft.toolkit.wpf.ui.xamlhost\\6.1.2\\microsoft.toolkit.wpf.ui.xamlhost.6.1.2.nupkg.sha512",
+    "C:\\Users\\Oscar\\.nuget\\packages\\microsoft.vcrtforwarders.140\\1.0.6\\microsoft.vcrtforwarders.140.1.0.6.nupkg.sha512",
+    "C:\\Users\\Oscar\\.nuget\\packages\\microsoft.windows.sdk.contracts\\10.0.19041.1\\microsoft.windows.sdk.contracts.10.0.19041.1.nupkg.sha512",
+    "C:\\Users\\Oscar\\.nuget\\packages\\system.runtime.windowsruntime\\4.6.0\\system.runtime.windowsruntime.4.6.0.nupkg.sha512",
+    "C:\\Users\\Oscar\\.nuget\\packages\\system.runtime.windowsruntime.ui.xaml\\4.6.0\\system.runtime.windowsruntime.ui.xaml.4.6.0.nupkg.sha512"
   ],
   "logs": []
 }

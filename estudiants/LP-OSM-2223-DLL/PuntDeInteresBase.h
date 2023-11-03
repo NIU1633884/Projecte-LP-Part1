@@ -9,6 +9,7 @@ class PuntDeInteresBase {
 		Coordinate m_coord; //coordenades
 		std::string m_name; //nom
 
+
 	public:		
 		PuntDeInteresBase();
 		PuntDeInteresBase(Coordinate coord, std::string name);

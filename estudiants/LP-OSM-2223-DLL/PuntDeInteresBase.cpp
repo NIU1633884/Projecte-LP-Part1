@@ -21,6 +21,7 @@ std::string PuntDeInteresBase::getName() {
 }
 
 unsigned int PuntDeInteresBase::getColor() {
+
 	return 0xFFA500;
 }
 
