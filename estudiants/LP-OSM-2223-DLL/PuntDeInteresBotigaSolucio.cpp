@@ -16,7 +16,7 @@ unsigned int PuntDeInteresBotigaSolucio::getColor()
 	else if (this->m_shop == "tobacco")
 		return 0xFFAD69;
 	else if (this->m_shop == "bakery") {
-		if (this->m_opening_hours == "06:00-22:00" && this->m_wheelchair == "yes")
+		if (this->m_opening_hours.find("06:00-22:00") && this->m_wheelchair == "yes")
 			return 0x4CB944;
 		return 0xE85D75;
 	}
