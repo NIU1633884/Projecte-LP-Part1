@@ -1,9 +1,3 @@
 ﻿  MapaSolucio.cpp
-C:\Users\Oscar\Source\Repos\NIU1633884\Projecte-LP-Part1\estudiants\LP-OSM-2223-DLL\MapaSolucio.cpp(100,53): error C2653: 'Util': no es un nombre de clase o espacio de nombres
-C:\Users\Oscar\Source\Repos\NIU1633884\Projecte-LP-Part1\estudiants\LP-OSM-2223-DLL\MapaSolucio.cpp(100,59): error C3861: 'kvDeTag': no se encontró el identificador
-C:\Users\Oscar\Source\Repos\NIU1633884\Projecte-LP-Part1\estudiants\LP-OSM-2223-DLL\MapaSolucio.cpp(153,53): error C2653: 'Util': no es un nombre de clase o espacio de nombres
-C:\Users\Oscar\Source\Repos\NIU1633884\Projecte-LP-Part1\estudiants\LP-OSM-2223-DLL\MapaSolucio.cpp(153,59): error C3861: 'kvDeTag': no se encontró el identificador
-C:\Users\Oscar\Source\Repos\NIU1633884\Projecte-LP-Part1\estudiants\LP-OSM-2223-DLL\MapaSolucio.cpp(180,52): error C2653: 'Util': no es un nombre de clase o espacio de nombres
-C:\Users\Oscar\Source\Repos\NIU1633884\Projecte-LP-Part1\estudiants\LP-OSM-2223-DLL\MapaSolucio.cpp(180,58): error C3861: 'kvDeTag': no se encontró el identificador
-  PuntDeInteresBase.cpp
-  Generando código...
+C:\Users\Oscar\Source\Repos\NIU1633884\Projecte-LP-Part1\estudiants\LP-OSM-2223-DLL\CamiSolucio.h(13,13): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+  LP-OSM-2223-DLL.vcxproj -> C:\Users\Oscar\Source\Repos\NIU1633884\Projecte-LP-Part1\estudiants\x64\Debug\LP-OSM-2223-DLL.dll

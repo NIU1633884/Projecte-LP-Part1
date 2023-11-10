@@ -10,6 +10,7 @@ public:
 	void setName(std::string n) { name = n; }
 	void setSurface(std::string s) { surface = s; }
 	void setHighway(std::string h) { highway = h; }
+	int getN() { return nodes.size();}
 
 private:
 	std::vector<Coordinate> nodes;

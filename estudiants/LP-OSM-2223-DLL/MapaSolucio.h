@@ -1,7 +1,8 @@
 #pragma once
 #include "pch.h"
 #include "MapaBase.h"
-
+#include "CamiSolucio.h"
+#include "Util.h"
 
 class MapaSolucio : public MapaBase
 {

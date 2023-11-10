@@ -83,7 +83,7 @@
     <ClCompile Include="PuntDeInteresBotigaSolucio.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="camiSolucio.cpp">
+    <ClCompile Include="CamiSolucio.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MapaSolucio.cpp">

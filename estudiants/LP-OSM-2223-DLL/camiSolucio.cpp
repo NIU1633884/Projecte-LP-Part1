@@ -6,7 +6,7 @@
 using namespace std;
 
 vector<Coordinate> CamiSolucio::getCamiCoords()
-{
+{/*
 	vector<Coordinate> camiCoords;
 
 
@@ -18,6 +18,15 @@ vector<Coordinate> CamiSolucio::getCamiCoords()
 	camiCoords.push_back(node3);
 	Coordinate node4; node4.lat = 41.4939882; node4.lon = 2.1456419;
 	camiCoords.push_back(node4);
+	*/
+	/*vector<Coordinate> camiCoords;
 
-		return camiCoords;
+	for (int i = 0; i < nodes.size(); i++) {
+
+		camiCoords.push_back(nodes[i]);
+
+	}*/
+
+
+	return nodes;
 };
